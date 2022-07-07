@@ -14,5 +14,5 @@ jobs:
       - name: Get the output time
         run: echo "The time was ${{ steps.hello.outputs.time }}"
       # Use the output from the `hello` step uname
-      - name: Get the output uname -r
-        run: echo "The time was ${{ steps.hello.outputs.uname }}"
+      - name: Get the output pwd
+        run: echo "The pwd was ${{ steps.hello.outputs.pwd }}"
